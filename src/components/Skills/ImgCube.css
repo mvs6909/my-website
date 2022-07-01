@@ -56,12 +56,12 @@ body{
 }
 
 @keyframes loop{
-    0% {transform:rotateX(0deg) rotateY(0deg);}
-    100% {transform:rotateX(0deg) rotateY(360deg);}
+    0% {transform: rotateY(0deg);}
+    100% {transform: rotateY(360deg);}
 }
 
 .cube{
-    animation: loop 15s linear infinite;
+    animation: loop 10s linear infinite;
 }
 
 .cube img:hover{
