@@ -2,6 +2,7 @@ import React from "react";
 import Zoom from 'react-reveal/Zoom';
 import "./Home.css";
 
+
 function Home(){
     return (
     <div className="title">
