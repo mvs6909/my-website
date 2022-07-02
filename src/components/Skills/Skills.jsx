@@ -10,6 +10,17 @@ function Skills(){
             <Row>
                 <Col>
                         <h3>My skills</h3>
+                        <ul className="list">
+                            <li>
+                                Python
+                            </li>
+                            <li>
+                                Python
+                            </li>
+                            <li>
+                                Python
+                            </li>
+                        </ul>
                 </Col>
                 <Col>
                     <ImgCube />

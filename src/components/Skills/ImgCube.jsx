@@ -9,8 +9,6 @@ function ImgCube(){
                     <img src={require("../assets/js.jpg")} />
                     <img src={require("../assets/js.jpg")} />
                     <img src={require("../assets/swift.jpg")} />
-                    <img src={require("../assets/swift.jpg")} />
-                    <img src={require("../assets/python.jpg")} />
                 </div>
             </div>
     )
