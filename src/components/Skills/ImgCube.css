@@ -1,11 +1,11 @@
 .wrap{
-    margin-top: 150px;
+    margin-left: 40px;
     perspective: 1000px;
     perspective-origin: 50% 50%;
 }
 
 :root{
-    --deft:100px;
+    --deft:200px;
 }
 
 body{
@@ -13,8 +13,8 @@ body{
 }
 
 .cube{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin: auto;
     transform-style: preserve-3d;
     position: relative;
@@ -61,7 +61,7 @@ body{
 }
 
 .cube{
-    animation: loop 40s linear infinite;
+    animation: loop 60s linear infinite;
 }
 
 .cube img:hover{
@@ -70,5 +70,5 @@ body{
 }
 .cube:hover{
      animation-play-state: paused;
-    --deft: 200px;
+    --deft: 400px;
 }
