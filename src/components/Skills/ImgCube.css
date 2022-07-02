@@ -70,5 +70,5 @@ body{
 }
 .cube:hover{
      animation-play-state: paused;
-    --deft: 400px;
+    --deft: 200px;
 }

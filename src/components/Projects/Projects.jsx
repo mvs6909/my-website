@@ -1,11 +1,15 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
+
 import "./Projects.css";
 
 import projectData from "../../ProjectCardsData";
 
 function createProject(project){
     return (
+
         <ProjectCard icon={project.icon} title={project.title} description={project.description} />
     )
 }
@@ -16,7 +20,7 @@ function Projects(){
         <div className="projects">
             <h1>Projects</h1>
             <dl className="cards">
-                {projectData.map(createProject)}
+                    {projectData.map(createProject)}
             </dl>
         </div>
     )

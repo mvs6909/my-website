@@ -16,7 +16,7 @@
     max-width: 90%;
   }
 
-.cards > .card{
+.cards .card{
   text-align: center;
   max-width: 20rem;
   margin-bottom: 3rem;
@@ -32,7 +32,7 @@
     box-shadow: 0 0 35px -2px rgba(0,0,0,.2);
   }
 
-.cards > .card:hover .card-logo{
+.cards .card:hover .card-logo{
     transform: scale(1.2);
 }
 .card-logo{

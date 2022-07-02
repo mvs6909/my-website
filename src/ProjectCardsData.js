@@ -5,7 +5,7 @@ const projectData = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
     },
     {
-        icon: "",
+        icon: "fa-lock-hashtag",
         title: "Cybersecurity",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
     },
