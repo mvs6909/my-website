@@ -19,9 +19,11 @@ function Projects(){
     return (
         <div className="projects">
             <h1>Projects</h1>
-            <dl className="cards">
+            <Fade left>
+                <dl className="cards">
                     {projectData.map(createProject)}
-            </dl>
+                </dl>
+            </Fade>
         </div>
     )
 }
