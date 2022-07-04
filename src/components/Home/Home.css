@@ -1,7 +1,12 @@
 .title{
-    background-color: white;
-    color: #041C32;
+    background-color: #041C32;
+    color: white;
     text-align: center;
     padding: 100px;
+    z-index: -1;
+    font-size: 6rem;
+}
+
+.main-heading {
     font-size: 6rem;
 }
