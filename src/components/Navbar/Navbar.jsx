@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import menuItems from "../../Menuitems";
+import menuItems from "./Menuitems";
 import "./Navbar.css"
 
 

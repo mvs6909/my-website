@@ -16,13 +16,12 @@ function About() {
     return (
         <div className="about">
             <div className="page">
-                <Zoom>
-
-                <h1 className="about-title">About me</h1>
+                <Zoom delay={200}>
+                    <h1 className="about-title">About me</h1>
                 </Zoom>
                 <hr />
                 {infoData.map(inform => {
-                    return <Fade right>
+                    return <Fade right delay={300}>
                     <Info title={inform.title} data={inform.data} />
                     </Fade>
                 })}

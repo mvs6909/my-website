@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 import "./Projects.css";
 
-import projectData from "../../ProjectCardsData";
+import projectData from "./ProjectCardsData";
 
 function createProject(project){
     return (
