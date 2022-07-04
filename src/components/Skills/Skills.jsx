@@ -6,21 +6,10 @@ import "./Skills.css"
 function Skills(){
     return (
         <div className="skills">
+        <h1 className="skill-title">My Skills</h1>
         <Container>
             <Row>
                 <Col>
-                        <h3>My skills</h3>
-                        <ul className="list">
-                            <li>
-                                Python
-                            </li>
-                            <li>
-                                Python
-                            </li>
-                            <li>
-                                Python
-                            </li>
-                        </ul>
                 </Col>
                 <Col>
                     <ImgCube />
