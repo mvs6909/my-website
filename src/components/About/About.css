@@ -11,11 +11,14 @@
     background-color: white;
     color: #041C32;
     z-index: 1;
+    box-shadow: 0 0 20px -2px rgb(255, 255, 255);
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 15px;
+    transition: all 100ms ease-in-out;
 }
+
 
 .about-title{
     padding: 50px 50px 20px;
