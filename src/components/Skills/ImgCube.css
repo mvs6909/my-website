@@ -5,7 +5,7 @@
 }
 
 :root{
-    --deft:200px;
+    --deft:150px;
 }
 
 body{
@@ -13,8 +13,8 @@ body{
 }
 
 .cube{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     margin: auto;
     transform-style: preserve-3d;
     position: relative;
