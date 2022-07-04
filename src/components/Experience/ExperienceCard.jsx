@@ -3,14 +3,14 @@ import "./Experience.css";
 
 export default function ExperienceCard(props) {
   return (
-<div className="card">
+<div className="exp">
     <dt>
-        <span className="card-logo" role="img" aria-label="Tense Biceps">
+        <span className="exp-logo" role="img">
         <i class={props.icon}></i>
         </span>
-        <span className="card-title">{props.title}</span>
+        <span className="exp-title">{props.title}</span>
     </dt>
-    <dd className="card-description">
+    <dd className="exp-description">
         {props.description}
     </dd>
  </div>
