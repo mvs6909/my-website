@@ -3,6 +3,7 @@
     color: white;
     /* text-align: center; */
     padding: 100px;
+    position: relative;
 }
 
 .list{

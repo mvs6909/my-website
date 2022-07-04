@@ -13,8 +13,8 @@ function App(){
         <Particle className="animation-background"/>
         <NavBar />
         <Home />
-        <Projects />
         <About />
+        <Projects />
         <Skills />
     </div>
     )
