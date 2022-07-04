@@ -5,8 +5,8 @@ import Info from "./Info";
 function About() {
     return (
         <div className="about">
-                <h1 className="about-title">About me</h1>
             <div className="page">
+                <h1 className="about-title">About me</h1>
                 <hr />
                 <Info />
                 <Info />
