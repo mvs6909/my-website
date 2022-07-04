@@ -10,8 +10,8 @@ import "./App.css";
 function App(){
     return ( 
     <div className="App">
-        <Particle className="animation-background"/>
         <NavBar />
+        <Particle className="animation-background"/>
         <Home />
         <About />
         <Projects />
