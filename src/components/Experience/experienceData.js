@@ -1,6 +1,6 @@
 const experienceData = [
     {
-    icon: "fab fa-app-store-ios",
+    icon: "../../assets.thon.png",
     title: "Memory Management",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
     },

@@ -5,10 +5,10 @@ function ImgCube(){
     return (
             <div class="wrap">
                 <div class="cube">
-                    <img src={require("../assets/python.jpg")} />
-                    <img src={require("../assets/js.jpg")} />
-                    <img src={require("../assets/c.png")} />
-                    <img src={require("../assets/swift.jpg")} />
+                    <img src={require("../../assets/python.jpg")} />
+                    <img src={require("../../assets/js.jpg")} />
+                    <img src={require("../../assets/c.png")} />
+                    <img src={require("../../assets/swift.jpg")} />
                 </div>
             </div>
     )

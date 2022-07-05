@@ -6,7 +6,7 @@ export default function ExperienceCard(props) {
 <div className="exp">
     <dt>
         <span className="exp-logo" role="img">
-        <i class={props.icon}></i>
+        <img src={props.icon}></img>
         </span>
         <span className="exp-title">{props.title}</span>
     </dt>
