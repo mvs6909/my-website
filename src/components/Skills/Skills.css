@@ -16,3 +16,29 @@
     padding-bottom: 60px;
 
 }
+
+.skill-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    max-width: 90%;
+}
+
+.skill-cards .skill-card{
+    text-align: center;
+    flex-basis: 100%;
+    max-width: 23.5rem;
+    margin-bottom: 3rem;
+    color: white;
+    padding: 2rem;
+    border-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #04293A;
+    transition: all 100ms ease-in-out;
+}
+
+.skill-card  p {
+    font-size: 3rem;
+}
