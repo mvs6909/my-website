@@ -1,16 +1,17 @@
 const experienceData = [
     {
-    icon: "../../assets.thon.png",
-    title: "Memory Management",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
+        id:0,
+        icon: "thon.png",
+        title: "Technology Captain - Dash Developer",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
     },
-    {
-        icon: "fab fa-app-store-ios",
+    {   id:1,
+        icon: "thon.png",
         title: "SnapBill",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
     },
-    {
-        icon: "fab fa-app-store-ios",
+    {   id:2,
+        icon: "thon.png",
         title: "Keeper",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
     }

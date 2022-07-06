@@ -13,15 +13,7 @@ function Skills(){
     return (
         <div className="skills">
         <h1 className="skill-title">My Skills</h1>
-        <Container>
-            <Row>
-                <Col>
-                </Col>
-                <Col>
-                    <ImgCube />
-                </Col>
-            </Row>
-        </Container>
+        <ImgCube />
         <div className="skill-cards">
             {skillCardData.map(createSkillCard)}
         </div>

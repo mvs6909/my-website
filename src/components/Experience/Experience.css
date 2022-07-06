@@ -57,3 +57,10 @@
     font-size: 1.4rem;
     padding-top: 20px;
 }
+
+.img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 40px;
+}
