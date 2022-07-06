@@ -22,7 +22,7 @@ function Navbar(){
                 {menuItems.map((item, index) => {
                     return (
                     <l1 key={index}>
-                        <a className={item.cName} href={item.url}>
+                        <a className={item.cName} href={item.url} target={item.target}>
                         {item.title}
                         </a>
                     </l1>
