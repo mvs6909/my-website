@@ -6,6 +6,7 @@ import Experience from "./Experience/Experience";
 import About from "./About/About";
 import Particle from "./Particles/Particle";
 import Projects from "./Projects/Projects";
+import Footer from "./Footer/Footer";
 import "./App.css";
 
 function App(){
@@ -18,6 +19,7 @@ function App(){
         <Experience />
         <Skills />
         <Projects />
+        <Footer />
     </div>
     )
 }

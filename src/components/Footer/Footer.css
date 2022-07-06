@@ -1,0 +1,21 @@
+.footer{
+    padding: 50px;
+    background-color: #041C32;
+    color: white;
+    text-align: center;
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.footer-links{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem auto;
+}
