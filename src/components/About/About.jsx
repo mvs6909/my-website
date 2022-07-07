@@ -14,7 +14,7 @@ function creatInfo(inform){
 function About() {
     console.log(infoData);
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="page">
                 <Zoom delay={200}>
                     <h1 className="about-title">About me</h1>

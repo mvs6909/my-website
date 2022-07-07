@@ -11,7 +11,7 @@ function createSkillCard(info){
 
 function Skills(){
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
         <h1 className="skill-title">My Skills</h1>
         <ImgCube />
         <div className="skill-cards">

@@ -9,7 +9,7 @@ function createExperience(experience){
 
 export default function Experience() {
   return (
-    <div className="experience">
+    <div className="experience" id="experience">
         <h1>My Experience</h1>
                 <dl className="exps">
                     {experienceData.map(createExperience)}

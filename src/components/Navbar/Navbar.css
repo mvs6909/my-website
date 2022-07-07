@@ -39,6 +39,7 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-decoration: none;
     position: relative;
     z-index: 1;
 }

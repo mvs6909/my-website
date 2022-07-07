@@ -8,7 +8,7 @@ function createFooterLink(link){
 }
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer' id="contact">
         <h1 className='contact-title'>Contact Me</h1>
         <div className='footer-links'>
             {footerData.map(createFooterLink)}
