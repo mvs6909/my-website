@@ -7,7 +7,7 @@ export default function ExperienceCard(props) {
   return (
 <div className="exp">
     <dt>
-        <img className="img" src={require(`../../assets/${src}`).default}></img>
+        <img className="img" src={require(`../../assets/${src}`)}></img>
         <span className="exp-title">{props.title}</span>
     </dt>
     <dd className="exp-description">
