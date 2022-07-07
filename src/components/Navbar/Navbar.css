@@ -6,6 +6,7 @@
     /* position: relative;
     z-index: 1; */
     justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
     align-items: center;
     font-size: 1.2rem;
 }
@@ -13,8 +14,8 @@
 .navbar-logo{
     color: white;
     justify-self: start;
-    font-family: 'Gentium Book Plus', 'serif';
     margin-left: 20px;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 
@@ -40,6 +41,8 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     text-decoration: none;
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.4rem;
     position: relative;
     z-index: 1;
 }
@@ -71,6 +74,10 @@
     margin-left: 20px;
 }
 
+.link-to{
+    text-decoration: none;
+}
+
 @media screen and ( max-width:960px ){
     .NavbarItems{
         position: relative;
@@ -89,6 +96,8 @@
     .nav-menu.active{
         background-color: #112031;
         left: 0;
+        top: 110px;
+        position: relative;
         opacity: 1;
         transition: all 0.5 ease;
         z-index: 1;
@@ -115,6 +124,7 @@
     .menu-icon{
         display: block;
         position: absolute;
+        z-index: 1;
         top: 0;
         right: 0;
         transform: translate(-100%,60%);
@@ -126,5 +136,5 @@
         color: white;
         font-size: 1.8rem;
     }
-    
 }
+
