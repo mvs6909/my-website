@@ -14,6 +14,11 @@ const experienceData = [
         icon: "thon.png",
         title: "Keeper",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
+    },
+    {   id:1,
+        icon: "thon.png",
+        title: "SnapBill",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
     }
 ]
 

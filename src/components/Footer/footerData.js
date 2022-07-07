@@ -2,28 +2,30 @@ const footerData=[
     {
         id: 0,
         title: "LinkedIn",
-        url: "",
+        url: "https://www.linkedin.com/in/mvs8758",
         target: "_blank",
-        icon: ""
+        icon: "fab fa-linkedin"
     },
     {
         id: 1,
         title: "Github",
-        url: "",
+        url: "http://www.github.com/mvs6909",
         target: "_blank",
-        icon: ""
+        icon: "fab fa-github"
     },
     {
         id: 2,
         title: "Instagram",
-        url: "",
+        url: "https://www.instagram.com/manav_8758",
         target: "_blank",
-        icon: ""
+        icon: "fab fa-instagram"
     },
     {
         id: 3,
         title: "Mail",
-        url: "",
-        icon: ""
+        url: "mailto:manav.shah8758@gmail.com",
+        icon: "fas fa-envelope"
     }
 ]
+
+export default footerData;

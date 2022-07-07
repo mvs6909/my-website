@@ -3,19 +3,41 @@
     background-color: #041C32;
     color: white;
     text-align: center;
+    /* position: relative;
+    z-index: 1; */
 }
 
 .contact-title{
     text-align: center;
     font-size: 4rem;
+    padding-bottom: 20px;
 }
 
 .footer-links{
     display: flex;
     text-align: center;
     flex-wrap: wrap;
-    max-width: 40%;
+    max-width: 60%;
     align-items: center;
     justify-content: space-between;
-    margin: 4rem auto;
+    margin: 1rem auto;
+}
+
+.footer-link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: none;
+    width: 170px;
+    position: relative;
+
+}
+
+.footerName{
+    margin-left: 10px;
+    display: inline;
+}
+
+.footer-link:hover{
+    background-color: black;
+    color:white;
 }
