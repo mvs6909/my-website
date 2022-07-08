@@ -5,9 +5,11 @@
     padding-top: 270px;
     padding-bottom: 300px;
     z-index: -1;
+    font-family: 'Roboto Mono', monospace;
     font-size: 6rem;
 }
 
 .main-heading {
     font-size: 6rem;
+    font-family: 'Roboto Mono', monospace;
 }

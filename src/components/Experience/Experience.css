@@ -19,7 +19,7 @@
 
 .experience > h1{
     font-size: 4.5rem;
-    color: #041C32;
+    color: hsl(209, 87%, 18%);
 }
 
 .exps .exp{
@@ -53,7 +53,7 @@
 .exp-title{
     font-size: 2.5rem;
     padding: 10px 0px 20px;
-    color: #041C32;
+    color: #033360;
     font-family: 'Gulzar', serif;
 }
 

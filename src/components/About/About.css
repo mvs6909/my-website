@@ -2,6 +2,7 @@
     background-color: #041C32;
     color: white;
     text-align: center;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
     padding-bottom: 100px;
 }
 
@@ -37,11 +38,15 @@ hr {
     padding-top: 30px;
     font-size: 2.5rem;
     text-align: left;
+    font-family: 'Roboto Mono', monospace;
     margin: 40px;
 }
 
 .info-data{
     text-align: left;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
     margin: 40px;
     font-size: 1.5rem;
+    text-decoration: none;
+
 }
