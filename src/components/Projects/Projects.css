@@ -13,11 +13,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 4rem auto;
-    max-width: 90%;
+    max-width: 97%;
   }
 
 .cards .card{
-  text-align: center;
+  text-align: left;
   max-width: 23.5rem;
   margin-bottom: 3rem;
   padding: 2rem;
@@ -39,7 +39,7 @@
     text-align: center;
     display: block;
     font-size: 4rem;
-    color: #041C32;
+    color: green;
 }
 .card-logo:hover{
     transform: scale(1.2);
@@ -49,6 +49,9 @@
     font-size: 2rem;
     padding: 10px 0px 20px;
     text-decoration: none;
+    display: block;
+    margin: auto;
+    text-align: center;
     color: #041C32;
 }
 
@@ -59,3 +62,26 @@
     color: #041C32;
 }
 
+.projects-button{
+    font-size: 1.5rem;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.skill-tag{
+    /* background-color: green; */
+    display: inline-block;
+    border-radius: 30px;
+    margin: 3px 5px;
+    /* padding: 5px 20px 5px 20px; */
+    color: white;
+    border-color: black;
+}
+
+.skilltag-data{
+    padding: 3px 20px 3px 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+}
