@@ -54,12 +54,14 @@
     font-size: 2.5rem;
     padding: 10px 0px 20px;
     color: #033360;
+    text-decoration: none;
     font-family: 'Gulzar', serif;
 }
 
 .exp-description{
     font-size: 1.4rem;
     padding-top: 20px;
+    color: #033360;
 }
 
 .img{
@@ -68,4 +70,8 @@
     margin: auto;
     padding-bottom: 40px;
     padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
 }

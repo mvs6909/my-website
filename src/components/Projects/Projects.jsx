@@ -9,8 +9,7 @@ import projectData from "./ProjectCardsData";
 
 function createProject(project){
     return (
-
-        <ProjectCard icon={project.icon} title={project.title} description={project.description} />
+        <ProjectCard key={project.id} icon={project.icon} title={project.title} description={project.description} url={project.url}/>
     )
 }
 

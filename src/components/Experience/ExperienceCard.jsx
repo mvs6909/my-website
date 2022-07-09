@@ -3,16 +3,15 @@ import "./Experience.css";
 
 export default function ExperienceCard(props) {
     let src=props.icon;
-    console.log(src)
   return (
 <div className="exp">
-    <dt>
+    <a href={props.url} target="_blank">
         <img className="img" src={require(`../../assets/${src}`)}></img>
-        <span className="exp-title">{props.title}</span>
-    </dt>
+        <p className="exp-title">{props.title}</p>
     <dd className="exp-description">
         {props.description}
     </dd>
+    </a>
  </div>
   )
 }
