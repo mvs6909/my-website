@@ -7,13 +7,14 @@ import "./Home.css";
 function Home(){
     return (
     <div className="title">
-        {/* <Fade top big cascade> */}
         <Zoom right cascade>
 
             <h1 className="main-heading">Hi there, I am Manav</h1>
-        {/* </Fade> */}
         </Zoom>
+        <Fade delay={1000}>
+
         <h2>A developer.</h2>
+        </Fade>
     </div>
     )
 }

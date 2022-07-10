@@ -2,9 +2,13 @@ import React from 'react';
 import experienceData from './experienceData';
 import ExperienceCard from './ExperienceCard';
 import "./Experience.css";
+import Zoom from 'react-reveal/Zoom';
 
 function createExperience(experience){
-    return <ExperienceCard key={experience.id} icon={experience.icon} title={experience.title} description={experience.description} url={experience.url} skills={experience.skills} color={experience.color}/>
+    return <Zoom>
+
+    <ExperienceCard key={experience.id} icon={experience.icon} title={experience.title} description={experience.description} url={experience.url} skills={experience.skills} color={experience.color}/>
+    </Zoom>
 }
 
 export default function Experience() {

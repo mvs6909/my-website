@@ -3,7 +3,7 @@ const projectData = [
         id: 0,
         icon: "fas fa-memory",
         title: "Memory Management",
-        skills: ["C", "Linux","Ubuntu"],
+        skills: ["C", "Linux","Ubuntu", "Caching"],
         color: "#ad0760",
         url: "https://www.github.com/mvs6909",
         description: "Designed a memory management system to integrate multiple disk and device administration layer for the users to seamlessly perform read and write operations with adding an LRU cache to improve performance."
