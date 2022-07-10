@@ -4,54 +4,54 @@ const projectData = [
         icon: "fas fa-memory",
         title: "Memory Management",
         skills: ["C", "Linux","Ubuntu"],
-        color: "blue",
+        color: "#ad0760",
         url: "https://www.github.com/mvs6909",
-        description: "Designed a memory management system to integrate multiple disk and device administration layer for the users to seamlessly perform read and write operations. Configured a LRU Cache to make the system efficient by 91.1%.  Integrated client side server functionality to manage the system using a cloud server."
+        description: "Designed a memory management system to integrate multiple disk and device administration layer for the users to seamlessly perform read and write operations with adding an LRU cache to improve performance."
     },
     {
         id: 1,
         icon: "fas fa-file-invoice-dollar",
-        title: "SnapBill",
-        skills: ["C", "Caching","Network Programming"],
-        color: "green",
+        title: "Snapbill",
+        skills: ["Full stack", "API", "Natural Language Processing"],
+        color: "#0f1369",
         url: "https://www.github.com/mvs6909",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
+        description: "Created an API which converts a shop receipt into representable form of dictionary used to categorize user’s monthly budget categorize the items for easy access."
     },
     {
         id: 2,
         icon: "fas fa-clipboard",
         title: "Keeper",
-        skills: ["C", "Caching","Network Programming"],
-        color: "red",
+        skills: ["React", "Javascript","CSS","Bootstrap"],
+        color: "#e3b80b",
         url: "https://www.github.com/mvs6909",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
+        description: "Developed a notes app using React to help user take notes for implementing the ticketing Pomodoro technique for a productivity increase of 56%."
     },
     {
         id: 3,
-        icon: "fab fa-app-store-ios",
+        icon: "fas fa-database",
         title: "Course Scheduer",
-        skills: ["C", "Caching","Network Programming"],
-        color: "gray",
+        skills: ["Java","OOP","SQL"],
+        color: "green",
         url: "https://www.github.com/mvs6909",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
+        description: "Developed a Full Stack Course Scheduler using Java with mySQL database to create an object oriented programming application for scheduling courses leveraging Java’s GUI."
     },
     {
         id: 4,
-        icon: "fab fa-app-store-ios",
+        icon: "fas fa-gamepad",
         title: "Light Game",
-        skills: ["C", "Caching","Network Programming"],
-        color: "#041C32",
+        skills: ["HTML", "Javascript","CSS"],
+        color: "red",
         url: "https://www.github.com/mvs6909",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
+        description: "Created a Light and sound memory game using HTML, CSS and Javascript to develop a core understanding about front-end development."
     },
     {
         id: 5,
         icon: "fab fa-app-store-ios",
         title: "Twitter API App",
-        skills: ["C", "Caching","Network Programming"],
-        color: "black",
+        skills: ["Swift", "API","Storyboard"],
+        color: "#0b74de",
         url: "https://www.github.com/mvs6909",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae tincidunt tellus. Pellentesque vel ligula varius sem commodo malesuada ac quis diam."
+        description: "Integrated Twitter’s API in an app to understand the working of an API in Swift where the user can log in, tweet, fetch and favorite tweets."
     }
 ]
 

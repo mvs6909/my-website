@@ -20,7 +20,7 @@ function Skills(){
         <div className="skills" id="skills">
         <h1 className="skill-title">My Skills</h1>
         <ImgCube />
-        <Fade right>
+        <Fade right delay={150}>
 
         <div className="skill-cards">
             {skillCardData.map(createSkillCard)}

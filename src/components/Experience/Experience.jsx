@@ -4,7 +4,7 @@ import ExperienceCard from './ExperienceCard';
 import "./Experience.css";
 
 function createExperience(experience){
-    return <ExperienceCard key={experience.id} icon={experience.icon} title={experience.title} description={experience.description} url={experience.url}/>
+    return <ExperienceCard key={experience.id} icon={experience.icon} title={experience.title} description={experience.description} url={experience.url} skills={experience.skills} color={experience.color}/>
 }
 
 export default function Experience() {

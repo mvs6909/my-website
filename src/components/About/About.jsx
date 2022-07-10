@@ -12,7 +12,6 @@ function creatInfo(inform){
 }
 
 function About() {
-    console.log(infoData);
     return (
         <div className="about" id="about">
             <div className="page">

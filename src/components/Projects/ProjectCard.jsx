@@ -17,7 +17,10 @@ function ProjectCard(props){
                 </span>
                 <span className="card-title">{props.title}</span>
             </dt>
+            <div className="skill-tags">
+
             {props.skills.map((skill) => { return <Skilltag skill={skill} color={color}/>})}
+            </div>
             <dd className="card-description">
                 {props.description}
             </dd>

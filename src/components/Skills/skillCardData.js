@@ -35,13 +35,13 @@ const skillCardData = [
         back: "Love it"
     },
     {   id:7,
-        front: "React",
+        front: "React.js",
         icon: "fab fa-react",
         back: "Love it"
     },
     {   id:8,
-        front: "Express.js",
-        icon: "fab fa-node-js",
+        front: "Vue.js",
+        icon: "fab fa-vuejs",
         back: "Love it"
     },
     {   id:9,
