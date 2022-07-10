@@ -13,3 +13,15 @@
     font-size: 6rem;
     font-family: Open Sans,Helvetica,Arial,sans-serif;
 }
+
+@media screen and ( max-width:960px ){
+    .main-heading {
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and ( max-width:700px ){
+    .main-heading {
+        font-size: 2.5rem;
+    }
+}

@@ -14,7 +14,7 @@ function createExperience(experience){
 export default function Experience() {
   return (
     <div className="experience" id="experience">
-        <h1>My Experience</h1>
+        <h1 className='tit'>My Experience</h1>
                 <dl className="exps">
                     {experienceData.map(createExperience)}
                 </dl>

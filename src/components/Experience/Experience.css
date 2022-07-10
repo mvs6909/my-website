@@ -17,7 +17,7 @@
     max-width: 90%;
   }
 
-.experience > h1{
+.tit{
     font-size: 4.5rem;
     color: hsl(209, 87%, 18%);
 }
@@ -77,4 +77,23 @@
 
 a{
     text-decoration: none;
+}
+
+
+@media screen and ( max-width:960px ){
+     .tit{
+        font-size: 3rem;
+    }
+    .experience{
+        padding: 30px 0px;
+    }
+    .exp-title{
+        font-size: 1.3rem;
+    }
+
+}
+@media screen and ( max-width:400px ){
+    .tit{
+        font-size: 2rem;
+    }
 }
