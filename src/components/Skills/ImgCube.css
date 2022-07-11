@@ -1,5 +1,5 @@
 .wrap{
-    margin-left: 40px;
+    /* margin-left: 40px; */
     perspective: 1000px;
     perspective-origin: 50% 50%;
 }
@@ -71,4 +71,18 @@ body{
 .cube:hover{
      animation-play-state: paused;
     --deft: 200px;
+}
+
+@media screen and ( max-width:960px ){
+    :root{
+        --deft:70px;
+    }
+
+    .cube{
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        transform-style: preserve-3d;
+        position: relative;
+    }
 }

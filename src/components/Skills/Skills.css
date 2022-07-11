@@ -2,6 +2,7 @@
     background-color: #041C32;
     color: white;
     padding: 50px;
+    overflow-x: auto;
     position: relative;
 }
 

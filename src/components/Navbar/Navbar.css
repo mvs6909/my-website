@@ -80,6 +80,12 @@
 }
 
 @media screen and ( max-width:960px ){
+    .nav-menu{
+        display: none;
+    }
+}
+
+/* @media screen and ( max-width:960px ){
     .NavbarItems{
         position: relative;
     }
@@ -138,4 +144,4 @@
         font-size: 1.8rem;
     }
 }
-
+ */
