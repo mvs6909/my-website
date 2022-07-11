@@ -18,14 +18,13 @@ function createProject(project){
 function Projects(){
     return (
         <div className="projects" id="projects">
-            <h1>Projects</h1>
+            <h1 className="project-title">Projects</h1>
             <Fade left>
                 <dl className="cards">
                     {projectData.map(createProject)}
                 </dl>
             </Fade>
-            <Skilltag />
-            <button type="button" className="btn btn-primary projects-button" href="https://www.github.com/mvs6909">More</button>
+            {/* <button type="button" className="btn btn-primary projects-button" href="https://www.github.com/mvs6909">More</button> */}
         </div>
     )
 }

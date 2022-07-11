@@ -1,7 +1,6 @@
 .skills{
     background-color: #041C32;
     color: white;
-    /* text-align: center; */
     padding: 50px;
     position: relative;
 }
@@ -22,6 +21,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 4rem auto;
+    padding: 10px 20px;
     max-width: 90%;
 }
 
@@ -54,3 +54,39 @@
     padding-bottom: 10px;
 }
 
+@media screen and ( max-width:960px ){
+    .skill-card p{
+        font-size: 1rem;
+        margin: auto;
+    }
+    .skill-logo{
+        font-size: 2.5rem;
+    }
+    .skill-card{
+        margin: auto;
+    }
+    .skill-title{
+        font-size: 3rem;
+    }
+ 
+}
+@media screen and ( max-width:760px ){
+    .skill-card p{
+        font-size: 1rem;
+    }
+    .skill-title{
+        font-size: 2rem;
+    }
+ 
+}
+@media screen and ( max-width:400px ){
+    .skill-card p{
+        font-size: 0.5rem;
+        padding-bottom: 5px;
+    }
+
+    .skill-logo{
+        font-size: 1.5rem;
+
+    }
+} 

@@ -54,7 +54,7 @@
 
 .exp-title{
     font-size: 2.5rem;
-    padding: 10px 0px 0px;
+    /* padding: 10px 0px 0px; */
     color: #033360;
     text-decoration: none;
     font-family: 'Gulzar', serif;
@@ -68,7 +68,7 @@
 }
 
 .img{
-    width: 300px;
+    width: 40%;
     display: block;
     margin: auto;
     padding-bottom: 40px;
@@ -89,6 +89,9 @@ a{
     }
     .exp-title{
         font-size: 1.3rem;
+    }
+    .exp-description{
+        font-size: 0.8rem;
     }
 
 }

@@ -22,27 +22,27 @@ function About() {
                 </Zoom>
                 <Container className="container">
                     <Row className="row">
-                        <Col lg={7} md={7} sm={1}>
+                        <Col lg={7} md={12} sm={12}>
                             <Fade left delay={500}>
                             <p className="info-data">
                             Welcome to my world. I am a 19 year old passionate about software development trying to make an impact. Being introduced to coding from an early age developed my interest in solving problems using code. I was thrilled by coding while making programs that assisted me with my tedious homework. Being interested in making solutions using code, I decided to pursue Computer Science in college.
                             </p>
                             </Fade>
                         </Col>
-                        <Col lg={5} md={5} sm={0}>
+                        <Col lg={5} md={12} sm={12}>
                             <Fade right delay={250}>
                             <img src={require("../../assets/me.jpg")} className="me-img"></img>
                             </Fade>
                         </Col>
                     </Row>
                     <Row>
-                        <Col lg={5} md={5} sm={1}>
+                        <Col lg={5} md={12} sm={12}>
                             <Fade left delay={500}>
 
                             <img src={require("../../assets/oldmain.jpg")} className="oldmain-img"></img>
                             </Fade>
                         </Col>
-                        <Col lg={7} md={7} sm={1}>
+                        <Col lg={7} md={12} sm={12}>
                             <Fade right delay={500}>
 
                             <p className="info-data">

@@ -4,13 +4,14 @@
     text-align: center;
 }
 
-.projects > h1{
+.project-title{
     font-size: 4.5rem;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
     justify-content: space-between;
     margin: 4rem auto;
     max-width: 97%;
@@ -18,8 +19,9 @@
 
 .cards .card{
   text-align: left;
-  max-width: 24.5rem;
+  max-width: 25rem;
   margin-bottom: 3rem;
+  padding: 10px;
   padding: 2rem;
   border-color: #fff;
   border-radius: 3px;
@@ -57,7 +59,7 @@
 }
 
 .card-description{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-top: 20px;
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     text-decoration: none;
@@ -92,4 +94,61 @@
     text-align: center;
     font-size: 1.2rem;
     margin: auto;
+}
+
+
+
+@media screen and ( max-width:1060px ){
+    .cards .card{
+        margin: 1rem;
+        max-width: 40rem;
+    }
+    .card-logo{
+        font-size: 2.5rem;
+    }
+    .card-description{
+        font-size: 1rem;
+    }
+    .project-title{
+        padding-top: 10px;
+        font-size: 3rem;
+    }
+    .skilltag-data{
+        font-size: 0.7rem;
+    }
+    .cards{
+        /* margin: 0; */
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width:760px ){
+    .projects{
+        padding: 10px;
+    }
+    .project-title{
+        font-size: 1.7rem;
+        padding: 20px;
+    }
+    .cards .card{
+        margin: 10px;
+    }
+    .card-logo{
+        font-size: 2.2rem;
+    }
+    .cards{
+        margin: 10px auto;
+        max-width: 30rem;
+    }
+    .card-title{
+        font-size: 1rem;
+
+    }
+    .card-description{
+        font-size: 0.8rem;
+    }
+
+    .skilltag-data{
+        font-size: 0.7rem;
+    }
 }
