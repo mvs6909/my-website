@@ -46,9 +46,9 @@
     font-family: Open Sans,Helvetica,Arial,sans-serif;
 }
 
-.skill-card:hover{
+/* .skill-card:hover{
     box-shadow: 0 0 20px -2px rgb(5, 152, 237);
-}
+} */
 
 .skill-logo{
     font-size: 3.5rem;
